@@ -1,0 +1,3 @@
+SELECT product_name FROM CUSTOMERS
+JOIN ORDERS ON CUSTOMERS.id = ORDERS.costomer_id
+WHERE name LIKE 'alexey';
